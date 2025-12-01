@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ms Comisiones - Asistente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="bot-info">
+        <div class="bot-avatar">MC</div>
+        <div class="bot-text">
+          <h1>Ms Comisiones</h1>
+          <p>Asistente</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="chat-layout">
+      <main class="chat-panel">
+        <div id="messages" class="messages"></div>
+      </main>
+
+    <footer class="footer-panel">
+    <div class="input-container">
+        <input
+        id="messageInput"
+        type="text"
+        placeholder="Escriba un mensaje"
+        autocomplete="off"
+        />
+        <button id="sendButton">Enviar</button>
+    </div>
+    </footer>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
